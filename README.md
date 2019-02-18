@@ -62,7 +62,7 @@ mutation LoginUser {
     password: "your password"
   } ) {
     authToken
-    user: {
+    user {
       id
       name
     }
